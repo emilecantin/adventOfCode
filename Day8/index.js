@@ -18,6 +18,5 @@ console.log('Part 1:', totalLength - parsedLength);
 
 const escapedLength = strings.map(str => str.replace(/\\/g, '\\\\').replace(/"/g, '\\"')).reduce((memo, str) => memo + str.length + 2, 0);
 
-
 console.log('Part 2:', escapedLength - totalLength);
 
